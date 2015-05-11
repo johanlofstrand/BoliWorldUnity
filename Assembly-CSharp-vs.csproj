@@ -46,8 +46,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\BalloonControl.cs" />
+     <Compile Include="Assets\Scripts\BalloonController.cs" />
+     <Compile Include="Assets\Scripts\BalloonStartController.cs" />
      <Compile Include="Assets\Scripts\FrontmostSpriteClicker.cs" />
+     <Compile Include="Assets\Scripts\OutOfBoundsDestroyer.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
